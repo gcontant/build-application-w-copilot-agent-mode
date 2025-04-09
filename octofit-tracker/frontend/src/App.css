@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-link.activities {
+  color: #ff5733; /* Matches Activities header */
+}
+.nav-link.leaderboard {
+  color: #33ff57; /* Matches Leaderboard header */
+}
+.nav-link.teams {
+  color: #3357ff; /* Matches Teams header */
+}
+.nav-link.users {
+  color: #ff33a8; /* Matches Users header */
+}
+.nav-link.workouts {
+  color: #ffa533; /* Matches Workouts header */
+}
+
+.activities-header {
+  color: #ff5733; /* Red-Orange */
+}
+.leaderboard-header {
+  color: #33ff57; /* Green */
+}
+.teams-header {
+  color: #3357ff; /* Blue */
+}
+.users-header {
+  color: #ff33a8; /* Pink */
+}
+.workouts-header {
+  color: #ffa533; /* Orange */
+}
