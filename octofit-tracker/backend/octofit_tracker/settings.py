@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-h@dv%g)t7_xjm)c%l4i76b2@o=!_+cmx$-8lrq%w8gw5i39o3m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "glowing-potato-xgvw677xv4vhppgr-8000.app.github.dev",  # Add your codespace URL here
+]
 
 
 # Application definition
